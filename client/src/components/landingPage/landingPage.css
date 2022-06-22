@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,400&family=Patrick+Hand&family=Press+Start+2P&display=swap");
+
+
+.backgroundLanding {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: repeating-linear-gradient(129deg,#f8dc21 2%, #d2b813 5%);
+}
+
+.titleLanding {
+    letter-spacing: 0.3rem;
+    -webkit-text-stroke: 2px #3c5ba2;
+    color: #feca04;
+    font-family: "Press Start 2P";
+    position: relative;
+    font-size: 7.5rem;
+    top: 19rem;
+}
+
+
+
+/* .imgLanding img {
+    position: relative;
+    width: 100%;
+    height: 60rem;
+} */
+
+
+.linkHome {
+    height: 250px;
+    width: 250px;
+    border: 13px solid #383b4f;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        #f51939 125px,
+        white 125px
+    );
+    position: absolute;
+    margin: 0 -9rem;
+    z-index: 1;
+    transform: scale(0.3);
+    top: 6rem;
+    box-shadow: -15px 24px 99px 11px rgba(237,70,70,0.68);
+    animation: load 2s infinite;
+}
+
+@keyframes load {
+    50% {
+        transform: scale(0.5);
+    }
+}
+
+
+.linkHome:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 250px;
+    background-color: #383b4f;
+    top: 112.5px;
+    left: 0px;
+}
+
+.linkHome:after {
+    position: absolute;
+    content: "";
+    height: 90px;
+    width: 90px;
+    background-image: radial-gradient(
+        #ffffff 0px, #ffffff 10px,
+        #383b4f 10px, #383b4f 15px,
+        #ffffff 15px, #ffffff 32px,
+        #383b4f 32px
+    );
+    border-radius: 50%;
+    top: 80px;
+    left: 80px;
+}
+
+
+.linkHome:link {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .titleLanding {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .titleLanding {
+        font-size: 4rem;
+        top: 13rem;
+    }
+
+    .linkHome {
+        height: 125px;
+        width: 125px;
+        border: 6.5px solid #383b4f;
+        border-radius: 50%;
+        background-image: linear-gradient(
+            #f51939 62.5px,
+            white 62.5px
+        );
+        position: absolute;
+        margin: 0 -5rem;
+        z-index: 1;
+        transform: scale(0.3);
+        top: 6rem;
+        box-shadow: -15px 24px 99px 11px rgba(237,70,70,0.68);
+        animation: load 2s infinite;
+    }
+    
+    @keyframes load {
+        50% {
+            transform: scale(0.5);
+        }
+    }
+    
+    
+    .linkHome:before {
+        position: absolute;
+        content: "";
+        height: 6.75px;
+        width: 125px;
+        background-color: #383b4f;
+        top: 56.25px;
+        left: 0px;
+    }
+    
+    .linkHome:after {
+        position: absolute;
+        content: "";
+        height: 45px;
+        width: 45px;
+        background-image: radial-gradient(
+            #ffffff 0px, #ffffff 5px,
+            #383b4f 5px, #383b4f 7.5px,
+            #ffffff 7.5px, #ffffff 16px,
+            #383b4f 16px
+        );
+        border-radius: 50%;
+        top: 40px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 580px) {
+    .titleLanding {
+        font-size: 2.55rem;
+        
+    }
+}

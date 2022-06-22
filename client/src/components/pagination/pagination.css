@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,400&family=Patrick+Hand&family=Press+Start+2P&display=swap");
+
+
+.ulList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 1.5rem; 
+}
+
+.ulLi {
+    margin: 1rem;
+    
+}
+
+.pageNumbersButton {
+    list-style: none;
+    padding: 1rem;
+    font-family: 'Press Start 2P';
+    background-color: #f8dc21;   
+    color: #3c5ba2;
+}
+
+.pageNumbersButton:hover {
+    box-shadow: -15px 24px 99px 11px rgba(237,70,70,0.68);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .pageNumbersButton {
+        padding: 0.7rem;
+    }
+
+    .ulLi {
+        margin: 0.4rem;
+        
+    }
+}

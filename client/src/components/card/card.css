@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,400&family=Patrick+Hand&family=Press+Start+2P&display=swap");
+
+.pokeName {
+    font-family: "Press Start 2P";
+    color: #3c5ba2;
+}
+
+.pokeImage {
+    width: 9rem;
+    height: 10rem;
+}
+
+.typesCard {
+    font-family: "Press Start 2P";
+    color: #3c5ba2;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1200px) {
+    .pokeImage {
+        width: 7rem;
+        height: 8rem;
+    }
+
+    .typesCard{
+        font-size: 0.7rem;
+    }
+
+    .pokeName {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .pokeImage {
+        width: 6rem;
+        height: 7rem
+    }
+}

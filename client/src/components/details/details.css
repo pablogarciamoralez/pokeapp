@@ -1,0 +1,122 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,400&family=Patrick+Hand&family=Press+Start+2P&display=swap");
+
+.backGroundDetail {
+    background-color: #eef3fc;
+    width: 100%;
+    height: 100%;
+}
+
+.detailContainer {
+    background-color: #f8dc21;
+    margin: 6rem auto 6rem auto;
+    width: 600px;
+    height: 700px;
+    font-family: 'Press Start 2P';
+    color: #3c5ba2;
+    border: outset black;
+} 
+
+.imageDetail {
+    max-width: 12rem;
+    max-height: 12rem;
+}
+
+.buttonBack {
+    position: relative;
+    text-align: center;
+    /* top: 0.8rem; */
+    background-color: #f8dc21;
+    padding: 1rem;
+    font-family: 'Press Start 2P';
+    color: #3c5ba2;
+    bottom: 3rem;
+}
+
+.buttonBack:hover {
+    box-shadow: -15px 24px 99px 11px rgba(237,70,70,0.68);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.footerDetail {
+    position: relative;
+    height: 2.5rem;
+    background-color: #f8dc21;
+    
+    
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 580px) {
+    .detailContainer {
+        margin: 0 auto 0 auto;
+width: 80%;
+top: 13rem;
+position: relative;
+height: 460px;
+    }
+
+    .detailContainer h2 {
+        font-size: 0.8rem;
+    }
+
+    .detailContainer h1 {
+        font-size: 1.7rem
+    } 
+
+    .detailContainer img {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .buttonBack {
+        top: 15rem;
+    }
+
+    .footerDetail {
+        top: 17rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .detailContainer {
+        margin: 0 auto 6rem auto;
+        width: 80%;
+        top: 12rem;
+        position: relative;
+        height: 560px;
+    }
+
+    .detailContainer h1 {
+        font-size: 1.8rem;
+    }
+
+    .detailContainer h2 {
+        font-size: 1rem;
+    }
+
+    .footerDetail {
+        top: 12rem;
+    }
+
+    .buttonBack {
+        top: 10rem
+    }
+}
+
+@media (max-width: 1024px) {
+    .detailContainer {
+        margin: 0 auto 6rem auto;
+        position: relative;
+        top: 14rem
+    }
+
+    .buttonBack {
+        top: 11rem;
+    }
+
+    .footerDetail {
+        top: 13rem;
+    }
+}

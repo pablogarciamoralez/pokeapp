@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,400&family=Patrick+Hand&family=Press+Start+2P&display=swap");
+
+.background {
+    background-color: #eef3fc;
+}
+
+.headerContainer {
+    background: linear-gradient(129deg, #f8dc21 50%, #d2b813 90%);
+    width: 100%;
+    height: 10rem;
+    position: relative;
+}
+
+.title {
+    font-family: "Press Start 2P";
+    position: absolute;
+    letter-spacing: 0.3rem;
+    -webkit-text-stroke: 2px #3c5ba2;
+    color: #feca04;
+    font-size: 3rem;
+    margin-left: 4rem;
+    margin-top: -1.4rem;
+}
+
+.createContainer {
+    font-family: "Press Start 2P";
+    position: relative;
+    right: 6rem;
+    /* box-shadow: -15px 24px 99px 11px rgba(237,70,70,0.68); */
+    animation: color-change 1s infinite
+}
+
+.createContainer:hover {
+    transform: scale(1.1);
+}
+
+@keyframes color-change {
+    0% {
+        color: #3c5ba2;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: #3c5ba2;
+    }
+}
+
+.createContainer:link {
+    text-decoration: none;
+}
+
+.navBar {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 4rem;
+    right: 6rem;
+}
+
+
+.reloadButton {
+    position: relative;
+    border: 1px solid inset;
+    padding: 0.5rem;
+    margin-left: 59rem;
+    top: 7.4rem;
+    background-color: #f8dc21;
+    padding: 1rem;
+    font-family: 'Press Start 2P';
+    color: #3c5ba2;
+    ;
+}
+
+.reloadButton:hover {
+    box-shadow: -15px 24px 99px 11px rgba(237, 70, 70, 0.68);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer {
+    height: 2.5rem;
+    background-color: #f8dc21;
+    margin-bottom: 2rem;
+}
+
+.about {
+    position: relative;
+    /* left: -32rem; */
+    font-family: 'Press Start 2P';
+    top: 25%;
+}
+
+.social {
+    position: relative;
+    /* left: 38rem; */
+    font-size: 1.6rem;
+    top: -2.1rem;
+    float: right;
+}
+
+.social a {
+    margin-right: 2rem;
+    color: #3c5ba2;
+}
+
+.social a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.social a:hover {
+    cursor: pointer;
+    color: blue;
+    box-shadow: -15px 24px 99px 11px rgba(237, 70, 70, 0.68);
+    transform: scale(1.1);
+
+}
+
+
+@media (max-width: 1440px) {
+    .navBar {
+        right: 2rem;
+    }
+
+    .createContainer {
+        right: 3rem;
+    }
+
+    .titlesLabel {
+        font-size: 0.9rem;
+    }
+
+    .filterLabel {
+        width: 11rem;
+        font-size: 0.8rem;
+    }
+
+    .selectFilter {
+        font-size: 0.75rem;
+    }
+
+    .reloadButton {
+        margin-left: 55rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .navBar {
+        right: 3rem;
+    }
+
+    .createContainer {
+        right: 2rem;
+        font-size: 0.9rem;
+    }
+
+    .inputSearch {
+        width: 14rem;
+        font-size: 0.8rem;
+    }
+
+    .buttonSearch {
+        padding: 0.45rem;
+    }
+
+    .reloadButton {
+        margin-left: 50rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+
+    .navBar {
+        margin-top: 4.3rem;
+    }
+
+    .createContainer {
+        font-size: 0.8rem;
+    }
+
+    .inputSearch {
+        width: 12rem;
+        font-size: 0.65rem;
+    }
+
+    .buttonSearch {
+        padding: 0.4rem;
+        bottom: 0;
+    }
+
+    .selectFilter {
+        font-size: 0.7rem;
+    }
+
+    .titlesLabel {
+        font-size: 0.8rem;
+    }
+
+    .filterLabel {
+        margin-right: 0.3rem;
+    }
+
+    .reloadButton {
+        margin-left: 48rem;
+        top: 6.4rem;
+    }
+
+    .selectFilter:hover {
+
+        transform: scale(1.05);
+
+
+    }
+
+    .about {
+        font-size: 0.8rem;
+        display: block;
+        top: 30%;
+    }
+
+    .social {
+        font-size: 1.3rem;
+        top: -1.4rem;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .navBar {
+        flex-direction: column;
+        width: 30%;
+        /* right: 0; */
+        margin-top: 2rem;
+    }
+
+    .divCreate {
+        margin-bottom: 1rem;
+
+    }
+
+    .reloadButton {
+        margin-left: 30rem;
+        top: 17rem;
+    }
+
+    .selectFilter {
+        font-size: 0.6rem;
+    }
+
+    .buttonSearch {
+        left: 0.3rem;
+        padding: 0.3rem;
+    }
+
+    .inputSearch {
+        width: 11rem;
+        font-size: 0.6rem;
+    }
+
+    .createContainer {
+        right: 1rem;
+        padding: 0.2rem;
+        border: 1px solid #3c5ba2;
+    }
+
+    .title {
+        font-size: 2.3rem;
+    }
+
+    .headerContainer {
+        position: fixed;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navBar {
+        margin-top: 3rem;
+    }
+
+    .reloadButton {
+        margin-left: 23rem;
+        top: 17rem;
+        width: 9rem;
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .inputSearch {
+        width: 8rem;
+        font-size: 0.45rem;
+    }
+
+    .buttonSearch {
+        left: 0.2rem;
+        padding: 0.19rem;
+        margin-top: 0.1rem;
+    }
+
+    .createContainer {
+        font-size: 0.6rem;
+    }
+
+    .about {
+        font-size: 0.6rem;
+        margin-left: -6rem;
+        top: 32%;
+    }
+
+    .social {
+        top: -0.99rem;
+        font-size: 1.2rem;
+    }
+
+    .social a {
+        margin-right: 1.2rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .reloadButton {
+        margin-left: -1rem;
+        top: 38rem;
+        width: 8rem;
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
+
+    .title {
+        margin-left: 5%;
+        top: -1rem;
+        display: flex;
+width: 94%;
+justify-content: center;
+    }
+
+    .navBar {
+        flex-direction: column;
+        width: 99%;
+        right: 0.1rem;
+        margin-top: 5.5rem;
+    }
+
+    .about {
+        top: 30%;
+        width: 70%;
+        font-size: 0.5rem;
+        margin-left: 0;
+
+    }
+
+    .social {
+        top: -1.2rem;
+    }
+}
